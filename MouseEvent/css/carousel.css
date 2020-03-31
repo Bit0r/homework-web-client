@@ -1,0 +1,56 @@
+.carousel {
+  width: 130px;
+  padding: 0px 20px;
+  margin: auto;
+  position: relative;
+  background: grey;
+  border: 1px solid black;
+  border-radius: 1rem;
+}
+
+.carousel button {
+  position: absolute;
+  top: 50%;
+  padding: 0px;
+  cursor: pointer;
+}
+
+.carousel .carousel-prev {
+  left: 0px;
+}
+
+.carousel .carousel-next {
+  right: 0px;
+}
+
+.carousel .carousel-gallery {
+  width: 130px;
+  overflow: hidden;
+}
+
+.carousel ul,
+.carousel ol {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+}
+
+.carousel ul {
+  width: 9999px;
+}
+
+.carousel ol {
+  width: 100%;
+  height: 10px;
+  justify-content: space-between;
+}
+
+.carousel ol li {
+  border-radius: 50%;
+  background: whitesmoke;
+  width: 10px;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=carousel.css.map */

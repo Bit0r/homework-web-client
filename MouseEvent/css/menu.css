@@ -1,0 +1,22 @@
+.menu {
+  margin: 0px;
+  padding: 0px;
+}
+
+.menu p {
+  margin: 0px;
+  padding: 0px;
+}
+
+.menu span {
+  color: green;
+  cursor: pointer;
+}
+
+.menu ul {
+  margin: 0px;
+  list-style: none;
+  padding-left: 0.5rem;
+}
+
+/*# sourceMappingURL=menu.css.map */
